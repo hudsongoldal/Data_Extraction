@@ -24,8 +24,8 @@ if st.sidebar.button("Get Data"):
   if df.empty:
     st.error("No data found. Please check the ticker symbol or date range.")
    
-    else:
-      st.success(f"Data successfully extracted for {ticker}")
+  else:
+    st.success(f"Data successfully extracted for {ticker}")
 
 st.subheader("Company Information")
 info=stock.info
